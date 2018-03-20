@@ -2,18 +2,16 @@ prose:
   siteurl: 'https://denunciacorrupcion.cl/'
   media: 'assets'
   ignore:
-    - index.html
     - .gitignore
-    - faq.html
-    - about.html
     - 404.html
-    - /_includes
-    - _config.yml
     - CNAME
-    - _prose.yml
-    - README.md
     - Gemfile
     - Gemfile.lock
+    - README.md
+    - index.md
+    - _config.yml
+    - _prose.yml
+    - /_includes
   metadata:
     _posts:
       - name: "title"
@@ -25,7 +23,7 @@ prose:
         field:
           element: "text"
           label: "Fecha"
-          value: ""
+          value: CURRENT_DATETIME
       - name: "categories"
         field:
           element: "text"
@@ -36,6 +34,11 @@ prose:
           element: "text"
           label: "Enlace permanente"
           value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "publicado?"
+          value: true
     _videos:
       - name: "title"
         field:
@@ -46,7 +49,7 @@ prose:
         field:
           element: "text"
           label: "Fecha"
-          value: ""
+          value: CURRENT_DATETIME
       - name: "categories"
         field:
           element: "text"
@@ -62,6 +65,11 @@ prose:
           element: "text"
           label: "Enlace permanente"
           value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "publicado?"
+          value: true
     _archivos:
       - name: "title"
         field:
@@ -72,7 +80,7 @@ prose:
         field:
           element: "text"
           label: "Fecha"
-          value: ""
+          value: CURRENT_DATETIME
       - name: "categories"
         field:
           element: "text"
@@ -88,3 +96,8 @@ prose:
           element: "text"
           label: "Enlace permanente"
           value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "publicado?"
+          value: true
