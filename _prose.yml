@@ -12,6 +12,8 @@ prose:
     - CNAME
     - _prose.yml
     - README.md
+    - Gemfile
+    - Gemfile.lock
   metadata:
     _posts:
       - name: "title"
