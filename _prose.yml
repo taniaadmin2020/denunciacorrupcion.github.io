@@ -31,6 +31,11 @@ prose:
           element: "text"
           label: "Categoria"
           value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Enlace permanente"
+          value: ""
     _videos:
       - name: "title"
         field:
@@ -52,6 +57,11 @@ prose:
           element: "text"
           label: "Link video"
           value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Enlace permanente"
+          value: ""
     _archivos:
       - name: "title"
         field:
@@ -72,4 +82,9 @@ prose:
         field:
           element: "text"
           label: "Link documento"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Enlace permanente"
           value: ""
