@@ -39,6 +39,11 @@ prose:
           element: "checkbox"
           label: "publicado?"
           value: true
+      - name: "layout"
+        field:
+          element: "text"
+          label: "layout"
+          value: "post"
     _videos:
       - name: "title"
         field:
@@ -70,6 +75,11 @@ prose:
           element: "checkbox"
           label: "publicado?"
           value: true
+      - name: "layout"
+        field:
+          element: "text"
+          label: "layout"
+          value: "video"
     _archivos:
       - name: "title"
         field:
@@ -101,3 +111,8 @@ prose:
           element: "checkbox"
           label: "publicado?"
           value: true
+      - name: "layout"
+        field:
+          element: "text"
+          label: "layout"
+          value: "file"
