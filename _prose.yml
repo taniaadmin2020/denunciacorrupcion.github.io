@@ -47,7 +47,7 @@ prose:
           value: "video"
       - name: "url_video"
         field:
-          element: "url"
+          element: "text"
           label: "Link video"
           value: ""
     _archivos:
@@ -68,6 +68,6 @@ prose:
           value: "archivo"
       - name: "url_download"
         field:
-          element: "url"
+          element: "text"
           label: "Link documento"
           value: ""
