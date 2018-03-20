@@ -20,6 +20,12 @@ prose:
           label: "Titulo"
           value: ""
           placeholder: "Ingresa un titulo para tu articulo"
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Descripcion"
+          value: ""
+          placeholder: "Ingresa una descripcion del articulo de al menos 150 letras"
       - name: "date"
         field:
           element: "text"
