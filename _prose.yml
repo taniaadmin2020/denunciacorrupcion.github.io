@@ -1,0 +1,73 @@
+prose:
+  siteurl: 'https://denunciacorrupcion.cl/'
+  media: 'assets'
+  ignore:
+    - index.html
+    - .gitignore
+    - faq.html
+    - about.html
+    - 404.html
+    - /_includes
+    - _config.yml
+    - CNAME
+    - _prose.yml
+    - README.md
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titulo"
+          value: ""
+      - name: "date"
+        field:
+          element: "date"
+          label: "Fecha"
+          value: ""
+      - name: "categories"
+        field:
+          element: "text"
+          label: "Categoria"
+          value: ""
+    _videos:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titulo"
+          value: ""
+      - name: "date"
+        field:
+          element: "date"
+          label: "Fecha"
+          value: ""
+      - name: "categories"
+        field:
+          element: "text"
+          label: "Categoria"
+          value: "video"
+      - name: "url_video"
+        field:
+          element: "url"
+          label: "Link video"
+          value: ""
+    _archivos:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titulo"
+          value: ""
+      - name: "date"
+        field:
+          element: "date"
+          label: "Fecha"
+          value: ""
+      - name: "categories"
+        field:
+          element: "text"
+          label: "Categoria"
+          value: "archivo"
+      - name: "url_download"
+        field:
+          element: "url"
+          label: "Link documento"
+          value: ""

@@ -1,0 +1,7 @@
+---
+layout: file
+title:  "descarga este informe"
+date:   2018-03-20 10:43:13 -0300
+categories: archivo
+url_download: https://denunciacorrupcion.cl/assets/files/informe_01.pdf
+---
