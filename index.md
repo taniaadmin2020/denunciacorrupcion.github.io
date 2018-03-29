@@ -27,27 +27,24 @@ layout: home
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum recusandae expedita cum, rerum nisi asperiores adipisci eveniet, molestiae in dolorem sit praesentium molestias nulla rem repellat optio? Culpa, impedit, et?</p>
     </div>
     <div class="col-md-2 col-md-offset-4">
-      <a href="#" class="btn btn-default">Cómo denunciar?</a>
+      <a href="#" class="btn btn-como-denunciar">Cómo denunciar?</a>
     </div>
     <div class="col-md-2">
-      <a href="#" class="btn btn-default">Buzón de denuncia</a>
+      <a href="//buzon.denunciacorrupcion.cl/#/" class="btn btn-denuncia">Buzón de denuncia</a>
     </div>
   </div>
 </div>
 
-<div class="container text-center">
+<div id="material-informativo" class="container text-center">
   <h3>Material Informativo</h3>
   <div class="row">
     {% for mi in site.material_informativo %}
     <div class="col-md-4">
       <div class="panel panel-default">
-        {% if mi.img_related %}
         <div class="panel-heading">
-          <img src="{{mi.img_related}}" alt="{{mi.title}}" class="img-responsive">
+          <img src="{% if mi.img_related %}{{mi.img_related}}{% else %}https://via.placeholder.com/1024x768{% endif %}" alt="{{mi.title}}" class="img-responsive">
         </div>
-        {% endif %}
         <div class="panel-body">
-          {{mi.categories}}
           <a href="{% if mi.categories contains 'video' or mi.categories contains 'archivo' %}{{mi.share_url}}{% else %}{{mi.url}}{% endif %}"{% if mi.categories contains 'video' or mi.categories contains 'archivo' %} target="_blank"{% endif %}>{{mi.title}}</a>
           <p>{{mi.description}}</p>
         </div>
@@ -59,10 +56,12 @@ layout: home
   <a href="#" class="btn btn-default">Ver más material</a>
 </div>
 
-<div class="container-fluid text-center">
-  <h4>Colaboradores</h4>
-  <ul class="list-inline">
-    <li><img src="" alt="colaborador 1"></li>
-    <li><img src="" alt="colaborador 2"></li>
+<div id="colaboradores" class="container text-center">
+  <h3>Colaboradores</h3>
+  <ul class="list-inline row">
+    {% assign colaboradores = site.data.colaboradores %}
+    {% for c in colaboradores %}
+    <li class="col-md-2"><img src="{{c.image}}" alt="{{c.name}}" class="img-responsive"></li>
+    {% endfor %}
   </ul>
 </div>

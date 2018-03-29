@@ -2,11 +2,18 @@ body {
   font-family: 'Lato';
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
 
-.navbar-default .navbar-nav > li > a {
-  color: #279BAF;
-  &:hover {
+.navbar-default {
+  background-color: #FFF;
+  border-color: #FFF;
+  .navbar-nav > li > a {
     color: #279BAF;
+    &:hover {
+      color: #279BAF;
+    }
   }
 
 }
@@ -23,8 +30,53 @@ body {
 }
 
 #denuncialos {
+  padding: 50px 0px;
   color: #FFF;
+<<<<<<< HEAD
   background-color: #F88D99;
+=======
+  background-color: #ff5366;
+  .btn-como-denunciar {
+    border-radius: 15px;
+    color: #fff;
+    background-color: #ff5366;
+    border: 1px solid #fff;
+  }
+  .btn-denuncia {
+    border-radius: 15px;
+    color: #ff5366;
+    background-color: #fff;
+  }
+}
+
+#material-informativo {
+  h3 {
+    color: #279BAF;
+  }
+  padding: 50px 0px;
+
+  .panel-default > .panel-heading {
+    padding: 0px 0px;
+  }
+}
+
+#colaboradores {
+  h3 {
+    color: #279BAF;
+  }
+  padding: 50px 0px;
+}
+
+#footer-menu {
+  padding: 20px 0px;
+  background-color: #279BAF;
+  a {
+    color: #FFF;
+    &:hover {
+      color: #FFF;
+    }
+  }
+>>>>>>> 012d5089222594ad612ada10716503965cfe70d8
 }
 
 #faqs-section {
@@ -53,5 +105,17 @@ body {
     line-height: 30px;
     text-align: justify;
     text-justify: inter-word;
+  }
+}
+
+footer {
+  padding: 20px 0px;
+  background-color: #187292;
+  color: #FFF;
+  a {
+    color: #FFF;
+    &:hover {
+      color: #FFF;
+    }
   }
 }
