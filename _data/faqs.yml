@@ -40,12 +40,12 @@ carta.
 Whattsapp."
   - id: 9
     pregunta: "¿Cuáles son los contactos oficiales de ALAC?"
-    respuesta: "Twitter: @Ch_Transparente
-Facebook: /ChTransparente
+    respuesta: ''' Twitter: @Ch_Transparente
+"Facebook: /ChTransparente
 LinkedN: /chile-transparente/
 Email:
 Twitter: @ALAC_Chile
-Whatsapp: Por definir."
+Whatsapp: Por definir.'''
   - id: 10
     pregunta: "¿Cuándo se cierra el caso?"
     respuesta: "Los casos se cierran por dos causas. Por derivación a la autoridad pertinente cuando la denuncia no es sobre un caso de corrupción, o por que se adoptó una resolución de la autoridad competente por medio de un proceso administrativo o judicial."

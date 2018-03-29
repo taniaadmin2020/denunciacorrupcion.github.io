@@ -8,6 +8,7 @@ body {
   &:hover {
     color: #279BAF;
   }
+
 }
 
 #main-section {
@@ -23,16 +24,34 @@ body {
 
 #denuncialos {
   color: #FFF;
-  background-color: #F88D99
+  background-color: #F88D99;
 }
 
 #faqs-section {
-  color: #000;
+  color: #2BA2B4;
   background-color: #F6F6F6;
 
+  .panel {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+
   .panel-heading {
+    background-image: none;
     border-radius: 5px;
-    color: #000;
+    border: none;
+    color: #2BA2B4;
     background-color: #FFF;
+  }
+
+  .panel-body {
+    border-radius: 5px;
+    border: none;
+    color: #777777;
+    background-color: #FFF;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
