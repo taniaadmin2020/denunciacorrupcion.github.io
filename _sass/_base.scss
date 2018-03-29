@@ -22,6 +22,36 @@ body {
 }
 
 #denuncialos {
+  padding: 50px 0px;
   color: #FFF;
-  background-color: #F88D99
+  background-color: #ff5366;
+  .btn-como-denunciar {
+    border-radius: 15px;
+    color: #fff;
+    background-color: #ff5366;
+    border: 1px solid #fff;
+  }
+  .btn-denuncia {
+    border-radius: 15px;
+    color: #ff5366;
+    background-color: #fff;
+  }
+}
+
+#material-informativo {
+  h3 {
+    color: #279BAF;
+  }
+  padding: 50px 0px;
+
+  .panel-default > .panel-heading {
+    padding: 0px 0px;
+  }
+}
+
+#colaboradores {
+  h3 {
+    color: #279BAF;
+  }
+  padding: 50px 0px;
 }
