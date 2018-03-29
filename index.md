@@ -56,12 +56,12 @@ layout: home
   <a href="#" class="btn btn-default">Ver más material</a>
 </div>
 
-<div id="colaboradores" class="container-fluid text-center">
+<div id="colaboradores" class="container text-center">
   <h3>Colaboradores</h3>
-  <ul class="list-inline">
+  <ul class="list-inline row">
     {% assign colaboradores = site.data.colaboradores %}
     {% for c in colaboradores %}
-    <li><img src="{{c.image}}" alt="{{c.name}}" class="img-responsive"></li>
+    <li class="col-md-2"><img src="{{c.image}}" alt="{{c.name}}" class="img-responsive"></li>
     {% endfor %}
   </ul>
 </div>

@@ -2,11 +2,18 @@ body {
   font-family: 'Lato';
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
 
-.navbar-default .navbar-nav > li > a {
-  color: #279BAF;
-  &:hover {
+.navbar-default {
+  background-color: #FFF;
+  border-color: #FFF;
+  .navbar-nav > li > a {
     color: #279BAF;
+    &:hover {
+      color: #279BAF;
+    }
   }
 }
 
@@ -54,4 +61,27 @@ body {
     color: #279BAF;
   }
   padding: 50px 0px;
+}
+
+#footer-menu {
+  padding: 20px 0px;
+  background-color: #279BAF;
+  a {
+    color: #FFF;
+    &:hover {
+      color: #FFF;
+    }
+  }
+}
+
+footer {
+  padding: 20px 0px;
+  background-color: #187292;
+  color: #FFF;
+  a {
+    color: #FFF;
+    &:hover {
+      color: #FFF;
+    }
+  }
 }

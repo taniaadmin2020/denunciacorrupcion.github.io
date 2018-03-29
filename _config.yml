@@ -39,6 +39,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+whatsapp: +56 9 12345678
+email: alac@chiletransparente.cl
+
 collections:
   material_informativo:
     output: true
