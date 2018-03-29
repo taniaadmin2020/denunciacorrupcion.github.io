@@ -22,6 +22,7 @@ body {
       color: #279BAF;
     }
   }
+
 }
 
 #main-section {
@@ -76,13 +77,38 @@ body {
 }
 
 #faqs-section {
-  color: #000;
+  color: #2BA2B4;
   background-color: #F6F6F6;
 
+  .faq_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel {
+    width: 60%;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+
   .panel-heading {
+    background-image: none;
     border-radius: 5px;
-    color: #000;
+    border: none;
+    color: #2BA2B4;
     background-color: #FFF;
+  }
+
+  .panel-body {
+    border-radius: 5px;
+    border: none;
+    color: #777777;
+    background-color: #FFF;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
 
