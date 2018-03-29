@@ -3,7 +3,7 @@ layout: faqs_layout
 title: Preguntas frecuentes
 permalink: /preguntas-frecuentes/
 ---
-
+<div class="col-sm-11 col-sm-offset-2">
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   {% assign preguntas = site.data.faqs  %}
   {% for p in preguntas %}
@@ -23,4 +23,5 @@ permalink: /preguntas-frecuentes/
     </div>
   {% endfor %}
 
+</div>
 </div>

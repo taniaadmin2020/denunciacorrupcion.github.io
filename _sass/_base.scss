@@ -79,7 +79,14 @@ body {
   color: #2BA2B4;
   background-color: #F6F6F6;
 
+  .faq_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
   .panel {
+    width: 60%;
     border: none;
     box-shadow: none;
     margin-bottom: 20px;
