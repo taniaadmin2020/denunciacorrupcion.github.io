@@ -6,6 +6,7 @@ html {
 body {
   font-family: 'Lato';
   margin-bottom: 120px;
+  background-color: #F9F9F9;
 }
 
 .navbar {
@@ -14,8 +15,8 @@ body {
 
 .navbar-default {
   background-image: none;
-  background-color: #FFF;
-  border-color: #FFF;
+  background-color: #F9F9F9;
+  border-color: #F9F9F9;
   .navbar-nav > li > a {
     color: #279BAF;
     &:hover {
@@ -38,6 +39,12 @@ body {
     border-radius: 15px;
     color: #FFF;
     background-color: #279BAF;
+  }
+}
+
+#page, #simple-page {
+  h1,h2,h3,h4,h5,h6 {
+    color: #279BAF;
   }
 }
 
