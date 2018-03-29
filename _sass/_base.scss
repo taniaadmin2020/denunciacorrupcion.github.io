@@ -1,0 +1,27 @@
+body {
+  font-family: 'Lato';
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #279BAF;
+  &:hover {
+    color: #279BAF;
+  }
+}
+
+#main-section {
+  color: #FFF;
+  background-color: #187292;
+
+  .btn-main-section {
+    border-radius: 15px;
+    color: #FFF;
+    background-color: #279BAF;
+  }
+}
+
+#denuncialos {
+  color: #FFF;
+  background-color: #F88D99
+}

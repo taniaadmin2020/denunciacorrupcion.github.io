@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple-page
 title: Qué es un ALAC?
 permalink: /que-es-un-alac/
 ---

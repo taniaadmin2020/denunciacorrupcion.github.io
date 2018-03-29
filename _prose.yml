@@ -13,7 +13,7 @@ prose:
     - _prose.yml
     - /_includes
   metadata:
-    _posts:
+    _material_informativo:
       - name: "title"
         field:
           element: "text"
@@ -51,89 +51,14 @@ prose:
           element: "text"
           label: "layout"
           value: "post"
-    _videos:
-      - name: "title"
+      - name: "img_related"
         field:
           element: "text"
-          label: "Titulo"
+          label: "Imagen relacionada"
           value: ""
-          placeholder: "Ingresa un titulo para tu video"
-      - name: "description"
+      - name: "share_url"
         field:
-          element: "textarea"
-          label: "Descripcion"
+          element: "text"
+          label: "Enlace video o documento"
           value: ""
-          placeholder: "Ingresa una descripcion del video de al menos 150 letras"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Fecha"
-          value: CURRENT_DATETIME
-      - name: "categories"
-        field:
-          element: "text"
-          label: "Categoria"
-          value: "video"
-      - name: "url_video"
-        field:
-          element: "text"
-          label: "Link video"
-          value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Enlace permanente"
-          value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "publicado?"
-          value: true
-      - name: "layout"
-        field:
-          element: "text"
-          label: "layout"
-          value: "video"
-    _archivos:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Titulo"
-          value: ""
-          placeholder: "Ingresa un titulo para tu archivo"
-      - name: "description"
-        field:
-          element: "textarea"
-          label: "Descripcion"
-          value: ""
-          placeholder: "Ingresa una descripcion del archivo de al menos 150 letras"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Fecha"
-          value: CURRENT_DATETIME
-      - name: "categories"
-        field:
-          element: "text"
-          label: "Categoria"
-          value: "archivo"
-      - name: "url_download"
-        field:
-          element: "text"
-          label: "Link documento"
-          value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Enlace permanente"
-          value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "publicado?"
-          value: true
-      - name: "layout"
-        field:
-          element: "text"
-          label: "layout"
-          value: "file"
+          placeholder: "https://youtube.com/v/1234567XYZ"
