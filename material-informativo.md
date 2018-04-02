@@ -5,7 +5,8 @@ permalink: /material-informativo/
 ---
 
 <ul id="material-informativo" class="list-unstyled">
-{% for material in site.material_informativo %}
+{% assign material_informativo = site.material_informativo | reverse %}
+{% for material in material_informativo %}
   <li>
     <p class="category">{{material.categories}}</p>
 
