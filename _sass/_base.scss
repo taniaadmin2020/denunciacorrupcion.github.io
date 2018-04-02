@@ -26,13 +26,13 @@ body {
 
 }
 
+#main-page{
+  background-color: #fff;
+}
+
 #main-section {
   color: #FFF;
   background-color: #187292;
-
-  #main-content {
-    padding: 40px;
-  }
 
   .btn-main-section {
     margin-top: 50px;
@@ -45,6 +45,57 @@ body {
 #page, #simple-page {
   h1,h2,h3,h4,h5,h6 {
     color: #279BAF;
+    padding-bottom: 30px;
+  }
+
+  .description {
+    font-style: italic;
+  }
+
+  #page-sidebar {
+    li{
+      padding-bottom: 15px;
+      span {
+        color: #187292;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+#material-informativo {
+  li {
+    border-bottom: 2px solid #279BAF;
+    margin-top: 30px;
+    padding-bottom: 15px;
+
+    .category {
+      color: #ff5366;
+    }
+
+    h3 {
+      a {
+        color: #279BAF;
+        &:hover {
+          color: #279BAF;
+        }
+      }
+    }
+
+    i {
+      position: relative;
+      top: -37px;
+      color: #279BAF;
+      float: right;
+    }
+
+    .description {
+      color: #4e4e4e;
+    }
+
   }
 }
 
@@ -65,7 +116,7 @@ body {
   }
 }
 
-#material-informativo {
+#material-informativo-main {
   h3 {
     color: #279BAF;
   }
@@ -73,6 +124,11 @@ body {
 
   .panel-default > .panel-heading {
     padding: 0px 0px;
+  }
+
+  .btn-more-materials {
+    background-color: #279BAF;
+    color: #fff;
   }
 }
 
@@ -94,7 +150,6 @@ body {
   }
 
   .panel {
-    width: 60%;
     border: none;
     box-shadow: none;
     margin-bottom: 20px;

@@ -10,11 +10,11 @@
     {% if page.img_related %}
     <div class="container-fluid" style="background-image: url({{page.img_related}}); min-height: 350px; background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
     {% endif %}
-    <div class="container">
+    <div id="page" class="container">
       <div class="row">
         <div class="col-md-3">
           <h4></h4>
-          <ul class="list-unstyled">
+          <ul id="page-sidebar" class="list-unstyled">
             <li>
               <span>Autor:</span> {{page.autor}}
             </li>
@@ -54,7 +54,7 @@
         </div>
         <div class="col-md-9">
           <h2>{{page.title}}</h2>
-          {% if page.description %}<p>{{page.description}}</p>{% endif %}
+          {% if page.description %}<p class="description">{{page.description}}</p>{% endif %}
           {{ content }}
         </div>
       </div>

@@ -33,10 +33,11 @@ layout: home
   </div>
 </div>
 
-<div id="material-informativo" class="container text-center">
+<div id="material-informativo-main" class="container text-center">
   <h3>Material Informativo</h3>
   <div class="row">
-    {% for mi in site.material_informativo %}
+    {% assign material = site.material_informativo | reverse %}
+    {% for mi in material | limit: 3 %}
     <div class="col-xs-12 col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -51,7 +52,9 @@ layout: home
     </div>
     {% endfor %}
   </div>
-  <a href="/material-informativo/" class="btn btn-default">Ver más material</a>
+  <div>
+    <a href="/material-informativo/" class="btn btn-more-materials">Ver más material</a>
+  </div>
 </div>
 
 <div id="colaboradores" class="container text-center">

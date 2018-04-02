@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Welcome to Jekyll!
+title: "[articulo] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore est amet expedita cumque maiores, obcaecati. Dolorum quas commodi, consequuntur."
 date: '2018-03-19 15:28:13 -0300'
 autor: Chile Transparente
 categories: corrupcion
 published: true
-description: pequena descripcion del articulo
-img_related: https://via.placeholder.com/650x350
+description: Voluptatibus beatae, veniam cumque sunt esse ducimus consectetur quasi, eius eaque magnam quas eveniet facere magni iste quis culpa placeat. Facere, fugit.
+img_related: https://via.placeholder.com/1024x768
 share_url:
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam eveniet, adipisci excepturi eligendi reprehenderit, reiciendis fuga beatae corporis et quisquam mollitia! Fugit minus molestiae, laudantium quibusdam accusantium necessitatibus consequuntur. Impedit.
