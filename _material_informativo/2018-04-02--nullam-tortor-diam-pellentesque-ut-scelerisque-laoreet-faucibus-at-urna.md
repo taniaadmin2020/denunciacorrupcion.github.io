@@ -6,6 +6,7 @@ autor: Chile Transparente
 title: ' Nullam tortor diam, pellentesque ut scelerisque laoreet, faucibus at urna.'
 description: pequenia descripcion
 layout: post
+permalink: /esto-es-un-demo/
 ---
 ## A New Post
 
