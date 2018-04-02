@@ -69,3 +69,9 @@ prose:
           label: "Autor"
           value: "Chile Transparente"
           placeholder: "Chile Transparente"
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Plantilla"
+          value: "post"
+          placeholder: "post"
