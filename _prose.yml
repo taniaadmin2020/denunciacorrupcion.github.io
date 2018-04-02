@@ -33,9 +33,15 @@ prose:
           value: CURRENT_DATETIME
       - name: "categories"
         field:
-          element: "text"
+          element: "select"
           label: "Categoria"
-          value: ""
+          options:
+            - name: Video
+              value: video
+            - name: Archivo
+              value: archivo
+            - name: Articulo
+              value: articulo
       - name: "permalink"
         field:
           element: "text"
