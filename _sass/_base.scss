@@ -45,6 +45,23 @@ body {
 #page, #simple-page {
   h1,h2,h3,h4,h5,h6 {
     color: #279BAF;
+    padding-botom: 15px;
+  }
+
+  .description {
+    font-style: italic;
+  }
+
+  #page-sidebar {
+    li{
+      padding-bottom: 15px;
+      span {
+        color: #187292;
+        font-weight: strong;
+        display: block;
+        padding-bottom: 5px;
+      }
+    }
   }
 }
 
@@ -132,7 +149,6 @@ body {
   }
 
   .panel {
-    width: 60%;
     border: none;
     box-shadow: none;
     margin-bottom: 20px;

@@ -7,15 +7,15 @@
 
     {% include header.html %}
 
-    <div class="container-fluid" id="faqs-section">
+    <div class="container" id="faqs-section">
       <div class="row">
         <div class="col-md-12">
           <div class="faq_title">
             <h2>{{page.title}}</h2>
           </div>
           {% if page.description %}<p>{{page.description}}</p>{% endif %}
-          {{ content }}
         </div>
+        {{ content }}
       </div>
 
     </div>
