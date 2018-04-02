@@ -8,13 +8,17 @@ permalink: /colaboradores/
   <thead>
     <tr>
       <th>Logo</th>
+      <th>Nombre</th>
       <th>Descripcion</th>
     </tr>
   </thead>
   <tbody>
+    {% for c in site.data.colaboradores %}
     <tr>
-      <td>[logo]</td>
-      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos animi hic eius aut, esse quisquam atque obcaecati deleniti, voluptatem. Asperiores, recusandae tempora at debitis illum molestias quia, saepe! Perspiciatis, voluptate!</td>
+      <td><img src="{{c.image}}" alt="{{c.name}}" class="img-responsive"></td>
+      <td>{{c.name}}</td>
+      <td>{{c.description}}</td>
     </tr>
+    {% endfor %}
   </tbody>
 </table>

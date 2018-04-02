@@ -51,7 +51,9 @@ layout: home
     </div>
     {% endfor %}
   </div>
-  <a href="/material-informativo/" class="btn btn-default">Ver más material</a>
+  <div>
+    <a href="/material-informativo/" class="btn btn-more-materials">Ver más material</a>
+  </div>
 </div>
 
 <div id="colaboradores" class="container text-center">

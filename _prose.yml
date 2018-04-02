@@ -46,11 +46,6 @@ prose:
           element: "checkbox"
           label: "publicado?"
           value: true
-      - name: "layout"
-        field:
-          element: "text"
-          label: "layout"
-          value: "post"
       - name: "img_related"
         field:
           element: "text"
@@ -62,3 +57,9 @@ prose:
           label: "Enlace video o documento"
           value: ""
           placeholder: "https://youtube.com/v/1234567XYZ"
+      - name: "autor"
+        field:
+          element: "text"
+          label: "Autor"
+          value: "Chile Transparente"
+          placeholder: "Chile Transparente"
