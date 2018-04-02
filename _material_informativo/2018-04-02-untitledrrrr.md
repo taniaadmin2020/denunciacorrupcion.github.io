@@ -1,6 +1,6 @@
 ---
 date: '2018-04-02 18:06 -0300'
-categories: video
+categories: articulo
 published: true
 autor: Chile Transparente
 layout: post
