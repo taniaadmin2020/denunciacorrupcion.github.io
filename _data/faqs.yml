@@ -3,13 +3,14 @@
     respuesta: "Es una oficina de Chile Transparente, Capítulo Chileno de Transparencia Internacional, que brinda asistencia legal gratuita a víctimas, testigos y/o denunciantes de corrupción de hechos que involucren a autoridades y/o funcionarios públicos."
   - id: 2
     pregunta: "¿Qué tipo de denuncias puedo presentar?"
-    respuesta: 'Puedes denunciar cualquier hecho irregular o sospecha de acto corrupto que involucre a autoridades o funcionarios de alguna institución pública de la Administración del Estado, entre ellas:
+    respuesta: >-
+      Puedes denunciar cualquier hecho irregular o sospecha de acto corrupto que involucre a autoridades o funcionarios de alguna institución pública de la Administración del Estado, entre ellas:
 
 Ministerios y subsecretarias.
 Municipalidades.
 Servicios públicos descentralizados (de Salud, de Vivienda y Urbanismo, Universidades Estatales, Impuestos Internos, Previsión Social, FONASA,, JUNAEB,entre otros).
 Empresas públicas (ENAP, ENAMI, ASMAR, empresas portuarias, etc.).
-U otras instituciones estatales.'
+U otras instituciones estatales.
   - id: 3
     pregunta: "¿Qué información personal debo entregar?"
     respuesta: "Deben ingresar datos de identificación como nombre, apellido, RUT y un medio de contacto para comunicarnos contigo en caso de requerir más antecedentes y contarte como avanza tu denuncia. Si no deseas revelar tu identidad, el formulario de denuncia te permitirá mantener en reserva tus datos personales."
