@@ -14,7 +14,7 @@ layout: home
     </div>
     <div class="col-md-5">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/wNA1jl9Si2k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/Ser1MgGZa0U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -37,11 +37,11 @@ layout: home
   <h3>Material Informativo</h3>
   <div class="row">
     {% assign material = site.material_informativo | reverse %}
-    {% for mi in material | limit: 3 %}
+    {% for mi in material | limit:3 %}
     <div class="col-xs-12 col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <img src="{% if mi.img_related %}{{mi.img_related}}{% else %}https://via.placeholder.com/1024x768{% endif %}" alt="{{mi.title}}" class="img-responsive">
+          <img src="{% if mi.img_related %}{{mi.img_related}}{% else %}https://via.placeholder.com/1024x768{% endif %}" alt="{{mi.title| remove:'"'}}" class="img-responsive">
         </div>
         <div class="panel-body">
           <a href="{% if mi.categories contains 'video' or mi.categories contains 'archivo' %}{{mi.share_url}}{% else %}{{mi.url}}{% endif %}"{% if mi.categories contains 'video' or mi.categories contains 'archivo' %} target="_blank"{% endif %}>{{mi.title}}</a>
