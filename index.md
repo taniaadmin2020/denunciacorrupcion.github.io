@@ -33,8 +33,9 @@ layout: home
   </div>
 </div>
 
+{% if site.material_informativo.size > 0 %}
 <div id="material-informativo-main" class="container text-center">
-  <h3>Material Informativo</h3>
+  <h3>Material Educativo</h3>
   <div class="row">
     {% assign material = site.material_informativo | reverse %}
     {% for mi in material | limit:3 %}
@@ -55,9 +56,10 @@ layout: home
     {% endfor %}
   </div>
   <div>
-    <a href="/material-informativo/" class="btn btn-more-materials">Ver más material</a>
+    <a href="/material-educativo/" class="btn btn-more-materials">Ver más material</a>
   </div>
 </div>
+{% endif %}
 
 <div id="colaboradores" class="container text-center">
   <h3>Colaboradores</h3>

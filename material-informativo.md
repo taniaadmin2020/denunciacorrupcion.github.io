@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Material Informativo
-permalink: /material-informativo/
+title: Material Educativo
+permalink: /material-educativo/
 ---
 
 <ul id="material-informativo" class="list-unstyled">
