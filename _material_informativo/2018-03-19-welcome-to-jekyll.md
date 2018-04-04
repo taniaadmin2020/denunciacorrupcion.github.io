@@ -12,8 +12,6 @@ description: >-
   Voluptatibus beatae, veniam cumque sunt esse ducimus consectetur quasi, eius
   eaque magnam quas eveniet facere magni iste quis culpa placeat. Facere, fugit.
 img_related: 'https://via.placeholder.com/1024x768'
-permalink: ''
-share_url: ''
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam eveniet, adipisci excepturi eligendi reprehenderit, reiciendis fuga beatae corporis et quisquam mollitia! Fugit minus molestiae, laudantium quibusdam accusantium necessitatibus consequuntur. Impedit.
 
@@ -25,7 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum illum vero qui
 
 ```
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-``` 
+```
 
 > lalalalalala
 > lolololololo

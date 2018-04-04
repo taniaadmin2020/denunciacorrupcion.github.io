@@ -40,10 +40,12 @@ layout: home
     {% for mi in material | limit:3 %}
     <div class="col-xs-12 col-md-4">
       <div class="panel panel-default">
+        {% if mi.img_related %}
         <div class="panel-heading">
           <img src="{% if mi.img_related %}{{mi.img_related}}{% else %}https://via.placeholder.com/1024x768{% endif %}" alt="{{mi.title| remove:'"'}}" class="img-responsive">
         </div>
-        <div class="panel-body">
+        {% endif %}
+        <div class="panel-body {% unless mi.img_related %}no-img{% endunless %}">
           <a href="{% if mi.categories contains 'video' or mi.categories contains 'archivo' %}{{mi.share_url}}{% else %}{{mi.url}}{% endif %}"{% if mi.categories contains 'video' or mi.categories contains 'archivo' %} target="_blank"{% endif %}>{{mi.title}}</a>
           <p>{{mi.description}}</p>
         </div>
