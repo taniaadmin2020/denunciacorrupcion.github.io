@@ -7,11 +7,15 @@ layout: post
 title: nuevo contenido
 description: bajaaa
 permalink: test_enlace_permante
+img_related: ''
+share_url: ''
 ---
 ## A New Post
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
-poner contenido nuevo![LOGO PACIFISTA.svg]({{site.baseurl}}/assets/LOGO PACIFISTA.svg)
+## poner contenido nuevo![LOGO PACIFISTA.svg]({{site.baseurl}}/assets/LOGO PACIFISTA.svg)
 
-listo
+### listo
+
+añado añadiduras
