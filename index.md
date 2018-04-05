@@ -23,10 +23,9 @@ layout: home
 <div id="denuncialos" class="container-fluid">
   <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center">
     <h2>Haz tu denuncia</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum recusandae expedita cum, rerum nisi asperiores adipisci eveniet, molestiae in dolorem sit praesentium molestias nulla rem repellat optio? Culpa, impedit, et?</p>
   </div>
   <div class="col-xs-6 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4 col-lg-2 col-lg-offset-4 text-center">
-    <a href="#" class="btn btn-como-denunciar">Cómo denunciar?</a>
+    <a href="/haz-tu-denuncia/" class="btn btn-como-denunciar">¿Cómo denunciar?</a>
   </div>
   <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 text-center">
     <a href="//buzon.denunciacorrupcion.cl/#/" class="btn btn-denuncia">Buzón de denuncia</a>
