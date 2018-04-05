@@ -6,6 +6,7 @@ autor: Chile Transparente
 layout: post
 title: nuevo contenido
 description: bajaaa
+permalink: test_enlace_permante
 ---
 ## A New Post
 
