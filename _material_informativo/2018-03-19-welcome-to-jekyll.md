@@ -6,12 +6,13 @@ title: >-
   consequuntur.
 date: '2018-03-19 15:28:13 -0300'
 autor: Chile Transparente
-categories: corrupcion
+categories: video
 published: true
 description: >-
   Voluptatibus beatae, veniam cumque sunt esse ducimus consectetur quasi, eius
   eaque magnam quas eveniet facere magni iste quis culpa placeat. Facere, fugit.
 img_related: 'https://via.placeholder.com/1024x768'
+permalink: permalink
 ---
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam eveniet, adipisci excepturi eligendi reprehenderit, reiciendis fuga beatae corporis et quisquam mollitia! Fugit minus molestiae, laudantium quibusdam accusantium necessitatibus consequuntur. Impedit.
 
