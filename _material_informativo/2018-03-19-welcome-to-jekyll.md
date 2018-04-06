@@ -6,7 +6,7 @@ title: >-
   consequuntur.
 date: '2018-03-19 15:28:13 -0300'
 autor: Chile Transparente
-categories: video
+categories: articulo
 published: true
 description: >-
   Voluptatibus beatae, veniam cumque sunt esse ducimus consectetur quasi, eius
