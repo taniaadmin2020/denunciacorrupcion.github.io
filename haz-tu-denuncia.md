@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple-page
 title: Haz tu denuncia
 permalink: /haz-tu-denuncia/
 ---
@@ -16,5 +16,5 @@ permalink: /haz-tu-denuncia/
 Una vez recibida tu denuncia por nuestro equipo, se verificará si la denuncia presentada está dentro de las funciones del ALAC y un profesional de nuestra oficina se pondrá en contacto contigo al correo electrónico o teléfono que hayas ingresado y te informará si es necesario reunir más antecedentes o el proceso que seguirá tu denuncia.
 
 <div class="text-center">
-  <a href="https://buzon.denunciacorrupcion.cl" target="_blank" class="btn btn-primary btn-lg">Denuncia</a>
+  <a href="//buzon.denunciacorrupcion.cl" class="btn btn-primary btn-lg">Denuncia</a>
 </div>
