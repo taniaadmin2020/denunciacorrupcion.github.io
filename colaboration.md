@@ -1,24 +1,21 @@
 ---
-layout: page
+layout: colaboradores
 title: Colaboradores
 permalink: /colaboradores/
 ---
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Logo</th>
-      <th>Nombre</th>
-      <th>Descripcion</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for c in site.data.colaboradores %}
-    <tr>
-      <td><img src="{{c.image}}" alt="{{c.name}}" class="img-responsive"></td>
-      <td>{{c.name}}</td>
-      <td>{{c.description}}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<h2 class="titulo">{{page.title}}</h2>
+
+{% for c in site.data.colaboradores %}
+<div class="colaborador">
+  <div class="row">
+    <div class="col-md-4 logo">
+      <img src="{{c.image}}" alt="{{c.name}}" class="img-fluid">
+    </div>
+    <div class="col-md-8">
+      <h3>{{c.name}}</h3>
+      <p>{{c.description}}</p>
+    </div>
+  </div>
+</div>
+{% endfor %}

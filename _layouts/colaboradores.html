@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="interior colaboradores">
+
+    {% include header.html %}
+
+    <main>
+      <section id="contenido">
+        <div class="container-fluid">
+          <div class="row no-gutters">
+            <div class="col-lg-6 text-left alac">
+              <div class="row no-gutters">
+                <div class="col-lg-2 d-none d-lg-block d-xl-block">
+                  <ul class="redes">
+                    <li><a class="facebook" href="" target="_blank">Facebook</a></li>
+                    <li><a class="twitter" href="" target="_blank">Twitter</a></li>
+                    <li><a class="youtube" href="" target="_blank">Youtube</a></li>
+                    <li><a class="linkedin" href="" target="_blank">Linkedin</a></li>
+                   </ul>
+                </div>
+                <div class="col-lg-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
