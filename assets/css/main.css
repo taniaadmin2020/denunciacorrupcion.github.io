@@ -195,6 +195,18 @@ header{
 	color: #ff5366;
 	margin-left: 40px;
 }
+
+a.btn-denuncia{
+  line-height: 15px;
+    padding: 8px 45px;
+    border-radius: 27px;
+    font-size: 14px;
+    border: 2px solid #fff;
+    background-color: #ff6576;
+  color: white;
+  margin-right: 40px;
+}
+
 #material{
 	padding-top: 60px;
 	padding-bottom: 65px;
