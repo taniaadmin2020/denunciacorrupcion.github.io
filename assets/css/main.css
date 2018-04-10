@@ -89,6 +89,7 @@ header{
 }
 .redes{
 	padding-top: 60px;
+  list-style: none;
 }
 .redes li a{
 	width: 34px;
@@ -195,6 +196,18 @@ header{
 	color: #ff5366;
 	margin-left: 40px;
 }
+
+a.btn-denuncia{
+  line-height: 15px;
+    padding: 8px 45px;
+    border-radius: 27px;
+    font-size: 14px;
+    border: 2px solid #fff;
+    background-color: #ff6576;
+  color: white;
+  margin-right: 40px;
+}
+
 #material{
 	padding-top: 60px;
 	padding-bottom: 65px;
@@ -442,6 +455,12 @@ footer .redes li a.linkedin{
 .interior.dos .articulo .titulo{
 	margin-bottom: 45px;
 }
+.interior h3{
+  color: #389aac;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
 .articulo .bajada{
 	font-family: 'Lato', sans-serif;
 	font-weight: bolder;
@@ -449,6 +468,13 @@ footer .redes li a.linkedin{
 	text-transform: uppercase;
 	color: #9b9b9b;
 	margin-bottom: 55px;
+}
+.articulo li, .interior li{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #4c4c4c;
 }
 .articulo p{
 	font-family: 'Lato', sans-serif;

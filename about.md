@@ -1,6 +1,6 @@
 ---
 layout: simple-page
-title: Qué es un ALAC?
+title: ¿Qué es un ALAC?
 permalink: /que-es-un-alac/
 ---
 

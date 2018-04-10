@@ -15,10 +15,10 @@
               <div class="row no-gutters">
                 <div class="col-lg-2 d-none d-lg-block d-xl-block">
                   <ul class="redes">
-                    <li><a class="facebook" href="" target="_blank">Facebook</a></li>
-                    <li><a class="twitter" href="" target="_blank">Twitter</a></li>
-                    <li><a class="youtube" href="" target="_blank">Youtube</a></li>
-                    <li><a class="linkedin" href="" target="_blank">Linkedin</a></li>
+                    <li><a class="facebook" href="https://facebook.com/{{site.facebook}}" target="_blank">Facebook</a></li>
+                    <li><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank">Twitter</a></li>
+                    <li><a class="youtube" href="https://youtube.com/{{site.youtube}}" target="_blank">Youtube</a></li>
+                    <li><a class="linkedin" href="https://linkedin.com/company/{{site.linkedin}}" target="_blank">Linkedin</a></li>
                    </ul>
                 </div>
                 <div class="col-lg-6"></div>
@@ -48,8 +48,12 @@
 
               <span class="label">Compartir</span>
               <ul class="redes share">
-                <li><a class="facebook" href="" target="_blank">Facebook</a></li>
-                <li><a class="twitter" href="" target="_blank">Twitter</a></li>
+                <li>
+                  <a class="facebook" href="#" onclick="window.open('https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}', 'facebook-share-dialog', 'width=626,height=436');">Facebook</a>
+                </li>
+                <li>
+                  <a class="twitter" href="#" onclick="window.open('https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}', 'twitter-share-dialog', 'width=626,height=436');">Twitter</a>
+                </li>
               </ul>
             </div>
 
