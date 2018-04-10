@@ -8,7 +8,6 @@ prose:
     - Gemfile
     - Gemfile.lock
     - README.md
-    - index.md
     - _config.yml
     - _prose.yml
     - /_includes
