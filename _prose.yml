@@ -13,7 +13,7 @@ prose:
     - _prose.yml
     - /_includes
   metadata:
-    _material_informativo:
+    _material_educativo:
       - name: "title"
         field:
           element: "text"

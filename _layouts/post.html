@@ -3,63 +3,67 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="interior uno">
 
     {% include header.html %}
 
-    {% if page.img_related %}
-    <div class="container-fluid" style="background-image: url({{page.img_related}}); min-height: 350px; background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
-    {% endif %}
-    <div id="page" class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h4></h4>
-          <ul id="page-sidebar" class="list-unstyled">
-            <li>
-              <span>Autor:</span> {{page.autor}}
-            </li>
-            <li>
-              <span>Fecha:</span> {{page.date | date: "%d %B, %y"}}
-            </li>
-            <li>
-              <span>Compartir:</span>
-              <ul class="list-inline">
-                <li>
-                  <a href="#"onclick="window.open('https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}', 'twitter-share-dialog', 'width=626,height=436');">
-                    <span class="fa-stack">
-                      <i class="far fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-twitter fa-stack-1x"></i>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" onclick="window.open('https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}', 'facebook-share-dialog', 'width=626,height=436');">
-                    <span class="fa-stack">
-                      <i class="far fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=false&url={{site.url}}{{page.url}}&title={{page.title | url_encode}}', 'linkedin-share-dialog', 'width=626,height=436');">
-                    <span class="fa-stack">
-                      <i class="far fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <main>
+      <section id="que-es">
+        <div class="container-fluid">
+          <div class="row no-gutters">
+            <div class="col-lg-6 text-left alac">
+              <div class="row no-gutters">
+                <div class="col-lg-2 d-none d-lg-block d-xl-block">
+                  <ul class="redes">
+                    <li><a class="facebook" href="" target="_blank">Facebook</a></li>
+                    <li><a class="twitter" href="" target="_blank">Twitter</a></li>
+                    <li><a class="youtube" href="" target="_blank">Youtube</a></li>
+                    <li><a class="linkedin" href="" target="_blank">Linkedin</a></li>
+                   </ul>
+                </div>
+                <div class="col-lg-6"></div>
+              </div>
+            </div>
+            <div class="col-lg-12 text-center big-banner">
+              {% if page.img_related %}
+              <img class="img-fluid" src="{{page.img_related}}" />
+              {% endif %}
+            </div>
+          </div>
         </div>
-        <div class="col-md-9">
-          <h2>{{page.title}}</h2>
-          {% if page.description %}<p class="description">{{page.description}}</p>{% endif %}
-          {{ content }}
-        </div>
-      </div>
+      </section>
 
-    </div>
+      <section id="contenido">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 sidebar-left">
+
+              <h3>Enlance</h3>
+
+              <span class="label">Fecha</span>
+              <span class="fecha">{{page.date | date: "%d %B, %y"}}</span>
+
+              <span class="label">Publicado por</span>
+              <span class="publicado">{{page.autor}}</span>
+
+              <span class="label">Compartir</span>
+              <ul class="redes share">
+                <li><a class="facebook" href="" target="_blank">Facebook</a></li>
+                <li><a class="twitter" href="" target="_blank">Twitter</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-9 articulo">
+              <h2 class="titulo">{{page.title}}</h2>
+
+              <p class="bajada">{{page.description}}</p>
+
+              {{content}}
+            </div>
+
+          </div>
+        </div>
+      </section>
 
     {% include footer.html %}
 
