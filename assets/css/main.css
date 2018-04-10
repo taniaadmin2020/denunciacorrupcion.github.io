@@ -89,6 +89,7 @@ header{
 }
 .redes{
 	padding-top: 60px;
+  list-style: none;
 }
 .redes li a{
 	width: 34px;
