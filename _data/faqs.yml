@@ -1,28 +1,40 @@
+faqs:
+  - id: 0
+    pregunta: "¿Quien es ALAC?"
+    respuesta: |
+          This is supposed to be markdown.
+
+          [This works](http://example.com)
+
+          But:
+        - this
+        - doesn't
+        - work
   - id: 1
     pregunta: "¿Qué es ALAC?"
     respuesta: "Es una oficina de Chile Transparente, Capítulo Chileno de Transparencia Internacional, que brinda asistencia legal gratuita a víctimas, testigos y/o denunciantes de corrupción de hechos que involucren a autoridades y/o funcionarios públicos."
   - id: 2
     pregunta: "¿Qué tipo de denuncias puedo presentar?"
     respuesta: |
-      Puedes denunciar cualquier hecho irregular o sospecha de acto corrupto que involucre a autoridades o funcionarios de alguna institución pública de la Administración del Estado, entre ellas:
-      Ministerios y subsecretarias.
-      Municipalidades.
-      Servicios públicos descentralizados (de Salud, de Vivienda y Urbanismo, Universidades Estatales, Impuestos Internos, Previsión Social, FONASA,, JUNAEB,entre otros).
-      Empresas públicas (ENAP, ENAMI, ASMAR, empresas portuarias, etc.).
-      U otras instituciones estatales.
+        Puedes denunciar cualquier hecho irregular o sospecha de acto corrupto que involucre a autoridades o funcionarios de alguna institución pública de la Administración del Estado, entre ellas:
+        Ministerios y subsecretarias.
+        Municipalidades.
+        Servicios públicos descentralizados (de Salud, de Vivienda y Urbanismo, Universidades Estatales, Impuestos Internos, Previsión Social, FONASA,, JUNAEB,entre otros).
+        Empresas públicas (ENAP, ENAMI, ASMAR, empresas portuarias, etc.).
+        U otras instituciones estatales.
   - id: 3
     pregunta: "¿Qué información personal debo entregar?"
     respuesta: "Deben ingresar datos de identificación como nombre, apellido, RUT y un medio de contacto para comunicarnos contigo en caso de requerir más antecedentes y contarte como avanza tu denuncia. Si no deseas revelar tu identidad, el formulario de denuncia te permitirá mantener en reserva tus datos personales."
   - id: 4
     pregunta: "¿Se deben adjuntar documentos? ¿Cuáles? ¿Todos?"
     respuesta: |
-      Para un mejor respaldo de la denuncia, si tienes evidencia o documentos que respalden tu denuncia debes adjuntarlos con tu denuncia.
-      Pueden ser imágenes, fotografías, documentos oficiales, audios u otros."
+        Para un mejor respaldo de la denuncia, si tienes evidencia o documentos que respalden tu denuncia debes adjuntarlos con tu denuncia.
+        Pueden ser imágenes, fotografías, documentos oficiales, audios u otros."
   - id: 5
     pregunta: "¿Cuánto se demoran en responder mi denuncia?"
     respuesta: |
-      Una vez que hagas la denuncia, un profesional de nuestro equipo se pondrá en contacto contigo a más tardar en 3 días hábiles, contados desde el día hábiles siguiente al que ingresaste la denuncia, quien te informará como se gestionará tu denuncia.
-      Por ejemplo si ingresaste una denuncia un día sábado el primer día hábil siguiente es el día lunes y el plazo para que un profesional de nuestro equipo vencería el día miércoles."
+        Una vez que hagas la denuncia, un profesional de nuestro equipo se pondrá en contacto contigo a más tardar en 3 días hábiles, contados desde el día hábiles siguiente al que ingresaste la denuncia, quien te informará como se gestionará tu denuncia.
+        Por ejemplo si ingresaste una denuncia un día sábado el primer día hábil siguiente es el día lunes y el plazo para que un profesional de nuestro equipo vencería el día miércoles."
   - id: 6
     pregunta: "¿Quién se hará cargo de gestionar mi denuncia?"
     respuesta: "Cada denuncia ingresada será remitida a un profesional del equipo, quien se hará cargo de evaluar la información proporcionada, verificar documentos de respaldo que funden los hechos denunciados. Además esta persona te entregará información del estado de tramite y te podrá orientar de los siguientes pasos."
@@ -32,21 +44,21 @@
   - id: 8
     pregunta: "¿Por dónde se ingresa una denuncia?"
     respuesta: |
-      Puedes ingresar tus denuncias por medio de:
-      Formulario on line (link sitio).
-      Redes sociales.
-      Correo electrónico.
-      carta.
-      Whattsapp.
+        Puedes ingresar tus denuncias por medio de:
+        Formulario on line (link sitio).
+        Redes sociales.
+        Correo electrónico.
+        carta.
+        Whattsapp.
   - id: 9
     pregunta: "¿Cuáles son los contactos oficiales de ALAC?"
     respuesta:  |
-      Twitter: @Ch_Transparente
-      Facebook: /ChTransparente
-      LinkedN: /chile-transparente/
-      Email:
-      Twitter: @ALAC_Chile
-      Whatsapp: Por definir.
+        Twitter: @Ch_Transparente
+        Facebook: /ChTransparente
+        LinkedN: /chile-transparente/
+        Email:
+        Twitter: @ALAC_Chile
+        Whatsapp: Por definir.
   - id: 10
     pregunta: "¿Cuándo se cierra el caso?"
     respuesta: "Los casos se cierran por dos causas. Por derivación a la autoridad pertinente cuando la denuncia no es sobre un caso de corrupción, o por que se adoptó una resolución de la autoridad competente por medio de un proceso administrativo o judicial."

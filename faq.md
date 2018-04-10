@@ -35,12 +35,12 @@ permalink: /preguntas-frecuentes/
               {% for p in preguntas %}
                 <div class="card-header collapsed" data-toggle="collapse" href="#collapse-0{{ p.id }}" aria-expanded="false">
                   <a class="card-title">
-                    {{ p.pregunta }}
+                    {{ p.pregunta | markdownify}}
                   </a>
                 </div>
                 <div id="collapse-0{{ p.id }}" class="card-body collapse" data-parent="#accordion" >
                   <p>
-                    {{ p.respuesta }}
+                    {{ p.respuesta | markdownify}}
                   </p>
                 </div>
                 {% endfor %}
