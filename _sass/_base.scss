@@ -6,7 +6,6 @@ html {
 body {
   font-family: 'Lato';
   margin-bottom: 120px;
-  background-color: #F9F9F9;
 }
 
 .navbar {
@@ -43,9 +42,12 @@ body {
 }
 
 #page, #simple-page {
-  h1,h2,h3,h4,h5,h6 {
-    color: #279BAF;
+  h1 {
     padding-bottom: 30px;
+  }
+
+  h2,h3,h4,h5,h6 {
+    color: #279BAF;
   }
 
   .description {
@@ -122,8 +124,24 @@ body {
   }
   padding: 50px 0px;
 
+  .panel {
+    border-radius: 0px;
+    max-height: 396px;
+    min-height: 396px;
+  }
+
+  .panel-default {
+    border-color: #279BAF;
+  }
+
   .panel-default > .panel-heading {
     padding: 0px 0px;
+    border: 0;
+    background: none;
+  }
+
+  .panel.panel-default > .panel-body.no-img {
+    padding-top: 120px;
   }
 
   .btn-more-materials {

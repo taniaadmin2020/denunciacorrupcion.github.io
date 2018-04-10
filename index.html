@@ -1,0 +1,124 @@
+---
+layout: home
+---
+<main>
+  <section id="que-es">
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-left alac">
+          <div class="row no-gutters">
+            <div class="col-lg-2 d-none d-lg-block d-xl-block">
+              <ul class="redes">
+                <li><a class="facebook" href="" target="_blank">Facebook</a></li>
+                <li><a class="twitter" href="" target="_blank">Twitter</a></li>
+                <li><a class="youtube" href="" target="_blank">Youtube</a></li>
+                <li><a class="linkedin" href="" target="_blank">Linkedin</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-10">
+              <h2>¿Qué es un ALAC?</h2>
+              <p>ALAC es una oficina de Chile Transparente, Capítulo Chileno de Transparencia Internacional, que brinda asistencia legal gratuita a víctimas, testigos y/o denunciantes de corrupción de hechos que involucren a autoridades y/o funcionarios públicos.<p>
+              <p>ALAC te permite denunciar cualquier hecho irregular o sospecha de acto corrupto que involucre a autoridades o funcionarios de alguna institución pública de la Administración del Estado.</p>
+              <a class="mas" href="/que-es-un-alac/">Leer más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center video">
+          <img class="play" src="/assets/images/play-video.png"/>
+          <img class="img-fluid" src="/assets/images/video-poster.jpg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="denuncia">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <h2>Haz tu denuncia</h2>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 botones">
+          <a href="#" class="btn tutorial">Tutorial<br>de denuncia</a>
+          <a href="https://buzon.denunciacorrupcion.cl/#/" class="btn buzon">Buzón<br>de denuncia</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% if site.material_informativo.size > 0 %}
+  <section id="material">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Material Educativo</h2>
+        </div>
+      </div>
+      <div class="row articulos">
+        {% assign material = site.material_informativo | reverse %}
+        {% for mi in material | limit:3 %}
+        <div class="col-md-4">
+          <div class="articulo documento">
+            {% if mi.img_related %}
+            <img class="img-fluid" src="{% if mi.img_related %}{{mi.img_related}}{% else %}https://via.placeholder.com/1024x768{% endif %}"  alt="{{mi.title| remove:'"'}}" />
+            {% endif %}
+            <div class="cuerpo">
+              <h3>
+                <!--<a href="{% if mi.categories contains 'video' or mi.categories contains 'archivo' %}{{mi.share_url}}{% else %}{{mi.url}}{% endif %}"{% if mi.categories contains 'video' or mi.categories contains 'archivo' %} target="_blank"{% endif %}>
+                </a>-->
+                {{mi.title}}
+              </h3>
+              <p>{{mi.description}}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <a class="mas-articulos" href="/material-educativo/">ver más artículos</a>
+    </div>
+  </section>
+  {% endif %}
+
+  <section id="colaboradores">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Colaboradores</h2>
+        </div>
+      </div>
+      <div class="row">
+        {% assign colaboradores = site.data.colaboradores %}
+        {% for c in colaboradores %}
+        <div class="col-md-4 colaborador">
+          <img src="{{c.image}}" alt="{{c.name}}" class="img-fluid">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="accesos">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <a class="buzon" href="//buzon.denunciacorrupcion.cl/#/">Buzón de denuncia</a>
+          <h3>Buzón de denuncia</h3>
+        </div>
+        <div class="col-6 col-md-3">
+          <a class="que-es" href="/que-es-un-alac/">¿Qué es Alac?</a>
+          <h3>¿Qué es Alac?</h3>
+        </div>
+        <div class="col-6 col-md-3">
+          <a class="faq" href="/preguntas-frecuentes/">Preguntas Frecuentes</a>
+          <h3>Preguntas Frecuentes</h3>
+        </div>
+        <div class="col-6 col-md-3">
+          <a class="material" href="/material-educativo/">Material Educativo</a>
+          <h3>Material Educativo</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
