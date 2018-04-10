@@ -24,11 +24,8 @@ permalink: /preguntas-frecuentes/
       </div>
       <div class="container">
         <div class="row">
-
           <div class="col-lg-10 offset-lg-1 preguntas">
-
             <h2 class="titulo">Preguntas Frecuentes</h2>
-
             <div id="accordion" class="accordion">
               <div class="card mb-0">
               {% assign preguntas = site.data.faqs  %}
@@ -41,18 +38,18 @@ permalink: /preguntas-frecuentes/
                 <div id="collapse-0{{ p.id }}" class="card-body collapse" data-parent="#accordion" >
                   <p>
                     {{ p.respuesta | markdownify}}
+                    {% for i in p.items %}
+                    · {{ i.item }} <br>
+                    {% endfor %}
                   </p>
                 </div>
                 {% endfor %}
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
     </div>
-  </div>
   </section>
   <!-- Bootstrap core JavaScript -->
   <script src="/assets/vendor/jquery/jquery.min.js"></script>
