@@ -65,8 +65,8 @@ layout: home
             {% endif %}
             <div class="cuerpo">
               <h3>
-                <!--<a href="{% if mi.categories contains 'video' or mi.categories contains 'archivo' %}{{mi.share_url}}{% else %}{{mi.url}}{% endif %}"{% if mi.categories contains 'video' or mi.categories contains 'archivo' %} target="_blank"{% endif %}>
-                </a>-->
+                <a href="{% if mi.categories contains 'video' or mi.categories contains 'archivo' %}{{mi.share_url}}{% else %}{{mi.url}}{% endif %}"{% if mi.categories contains 'video' or mi.categories contains 'archivo' %} target="_blank"{% endif %}>
+                </a>
                 {{mi.title}}
               </h3>
               <p>{{mi.description}}</p>
