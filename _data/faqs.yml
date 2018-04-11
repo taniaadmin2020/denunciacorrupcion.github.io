@@ -14,7 +14,7 @@
   pregunta: "¿Qué información personal debo entregar?"
   respuesta: "Deben ingresar datos de identificación como nombre, apellido, RUT y un medio de contacto para comunicarnos contigo en caso de requerir más antecedentes y contarte como avanza tu denuncia. Si no deseas revelar tu identidad, el formulario de denuncia te permitirá mantener en reserva tus datos personales."
 - id: 4
-  pregunta: "¿Se deben adjuntar documentos? ¿Cuáles? ¿Todos?"
+  pregunta: "¿Se deben adjuntar documentos? ¿Cuáles?"
   respuesta: "Para un mejor respaldo de la denuncia, si tienes evidencia o documentos que respalden tu denuncia debes adjuntarlos con tu denuncia.
           Pueden ser imágenes, fotografías, documentos oficiales, audios u otros."
 - id: 5
@@ -40,11 +40,10 @@
   pregunta: "¿Cuáles son los contactos oficiales de ALAC?"
   respuesta:  "En redes sociales: "
   items:
-    - item: "Twitter: @Ch_Transparente"
-    - item: "Facebook: /ChTransparente"
-    - item: "LinkedN: /chile-transparente/"
+    - item: "Twitter: https://twitter.com/Ch_Transparente"
+    - item: "Facebook: https://facebook.com/ChTransparente"
+    - item: "LinkedN: https://linkedin.com/company/1731397"
     - item: "Email:"
-    - item: "Twitter: @ALAC_Chile"
     - item: "Whatsapp: Por definir."
 - id: 10
   pregunta: "¿Cuándo se cierra el caso?"
