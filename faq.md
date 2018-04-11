@@ -11,10 +11,7 @@ permalink: /preguntas-frecuentes/
           <div class="row no-gutters">
             <div class="col-lg-2 d-none d-lg-block d-xl-block">
               <ul class="redes">
-                <li><a class="facebook" href="" target="_blank">Facebook</a></li>
-                <li><a class="twitter" href="" target="_blank">Twitter</a></li>
-                <li><a class="youtube" href="" target="_blank">Youtube</a></li>
-                <li><a class="linkedin" href="" target="_blank">Linkedin</a></li>
+                {% include rrss.html %}
               </ul>
               <div class="col-lg-6">
               </div>
