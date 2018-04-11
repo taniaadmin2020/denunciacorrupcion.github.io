@@ -5,7 +5,7 @@ published: true
 autor: Chile Transparente
 layout: simple-page
 title: ¡Qué es ALAC?
-description: ¡Qué es ALAC?
+description: ¿Qué es ALAC?
 permalink: que-es-alac
 img_related: /assets/material_educativo_1.png
 ---
