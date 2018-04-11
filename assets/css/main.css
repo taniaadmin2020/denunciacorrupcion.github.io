@@ -504,6 +504,10 @@ footer .redes li a.linkedin{
 	font-style: italic;
 	margin-bottom:35px;
 }
+.articulo img {
+  width: 100%;
+}
+
 #contenido .redes{
 	padding-top: 0;
 }
