@@ -4,12 +4,13 @@ categories: articulo
 published: true
 autor: Chile Transparente
 layout: post
-title: que-es-alac
+title: ¡Qué es ALAC?
 description: ¡Qué es ALAC?
 permalink: que-es-alac
 ---
 ## ¡Qué es ALAC?
 
 Somos una oficina que forma parte de Chile Transparente. Capítulo chileno de Transparencia Internacional.
-![que-es-alac]({{site.baseurl}}/assets/material_educativo_1.png)
 
+
+![que-es-alac]({{site.baseurl}}/assets/material_educativo_1.png)
