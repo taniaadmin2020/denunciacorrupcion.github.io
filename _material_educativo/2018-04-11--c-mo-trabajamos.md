@@ -11,4 +11,5 @@ img_related: /assets/material_educativo_2.png
 ---
 ## ¿Cómo trabajamos?
 
-![como-trabajamos]({{site.baseurl}}/assets/material_educativo_2.png)
+![como-trabajamos]({{site.baseurl}}/assets/material_educativo_2.png)![material_educativo_2.png]({{site.baseurl}}/assets/material_educativo_2.png)
+
