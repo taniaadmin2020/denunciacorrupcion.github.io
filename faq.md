@@ -40,7 +40,7 @@ permalink: /preguntas-frecuentes/
                     {{ p.respuesta | markdownify}}
                     <ul>
                     {% for i in p.items %}
-                    <li> {{ i.item }} </li>
+                    <li> {{ i.item | markdownify }} </li>
                     {% endfor %}
                     </ul>
                   </p>
