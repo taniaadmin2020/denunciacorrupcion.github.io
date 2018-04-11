@@ -5,7 +5,6 @@ published: true
 autor: Chile Transparente
 layout: simple-page
 title: ¿Cómo denunciar?
-description: ¿Cómo denunciar?
 img_related: /assets/material_educativo_3.png
 permalink: como-denunciar
 ---
