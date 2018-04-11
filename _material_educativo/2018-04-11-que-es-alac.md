@@ -7,6 +7,7 @@ layout: post
 title: ¡Qué es ALAC?
 description: ¡Qué es ALAC?
 permalink: que-es-alac
+img_related: /assets/material_educativo_1.png
 ---
 ## ¡Qué es ALAC?
 
