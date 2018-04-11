@@ -31,7 +31,7 @@
   pregunta: "¿Por dónde se ingresa una denuncia?"
   respuesta: "Puedes ingresar tus denuncias por medio de:"
   items:
-    - item: "Formulario on line ([link](https://buzon.denunciacorrupcion.cl))".
+    - item: "Formulario on line ([link](https://buzon.denunciacorrupcion.cl))"
     - item: Redes sociales.
     - item: "Correo electrónico alac@chiletransparente.cl"
     - item: Carta.
