@@ -238,7 +238,7 @@ a.btn-denuncia{
 #material .cuerpo{
 	padding: 30px;
 }
-#material .cuerpo h3{
+#material .cuerpo h3, #material .cuerpo h3 a {
 	color: #ff5366;
 	font-family: 'Raleway', sans-serif;
     font-weight: 500;
