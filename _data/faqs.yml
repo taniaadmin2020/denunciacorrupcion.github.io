@@ -31,11 +31,11 @@
   pregunta: "¿Por dónde se ingresa una denuncia?"
   respuesta: "Puedes ingresar tus denuncias por medio de:"
   items:
-    - item: Formulario on line (link sitio).
+    - item: Formulario on line ([link](https://buzon.denunciacorrupcion.cl)).
     - item: Redes sociales.
-    - item: Correo electrónico.
+    - item: "Correo electrónico alac@chiletransparente.cl"
     - item: Carta.
-    - item: Whattsapp.
+    - item: "Whatsapp: +56 9 12345678"
 - id: 9
   pregunta: "¿Cuáles son los contactos oficiales de ALAC?"
   respuesta:  "En redes sociales: "
@@ -43,8 +43,8 @@
     - item: "Twitter: https://twitter.com/Ch_Transparente"
     - item: "Facebook: https://facebook.com/ChTransparente"
     - item: "LinkedN: https://linkedin.com/company/1731397"
-    - item: "Email:"
-    - item: "Whatsapp: Por definir."
+    - item: "Email: alac@chiletransparente.cl"
+    - item: "Whatsapp: +56 9 12345678"
 - id: 10
   pregunta: "¿Cuándo se cierra el caso?"
   respuesta: "Los casos se cierran por dos causas. Por derivación a la autoridad pertinente cuando la denuncia no es sobre un caso de corrupción, o por que se adoptó una resolución de la autoridad competente por medio de un proceso administrativo o judicial."
