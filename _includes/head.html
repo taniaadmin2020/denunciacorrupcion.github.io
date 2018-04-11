@@ -4,13 +4,13 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="author" content="">
     <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ site.baseurl }}" />
+    <link rel="canonical" href="{{ site.url }}" />
 
     <!-- open graph -->
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.baseurl }}">
-    <meta property="og:image" content="{{ site.baseurl }}/assets/images/logo-alac.svg">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/images/logo-alac.svg">
     <meta property="og:description" content="{{ site.description }}">
     <!-- twitter card -->
     <meta name="twitter:card" content="summary">
@@ -18,7 +18,7 @@
     <meta name="twitter:title" content="{{ site.title }}">
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:creator" content="@ch_transparente">
-    <meta name="twitter:image" content="http:{{ site.baseurl }}/assets/images/logo-alac.svg">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/logo-alac.svg">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
