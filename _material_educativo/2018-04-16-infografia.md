@@ -6,7 +6,6 @@ autor: Chile Transparente
 layout: post
 title: infografia
 permalink: infografia
-share_url: /assets/infografia_alac.pdf
+share_url: /assets/infografia_ALAC.pdf
 description: Proceso de denuncia.
 ---
-
