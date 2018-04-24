@@ -7,5 +7,5 @@ layout: post
 title: Infografía
 share_url: /assets/infografia_ALAC.pdf
 description: Proceso de denuncia.
-img_related: assets/images/alac_chile-logo_v2.png
+img_related: /assets/material_educativo_1.png
 ---
