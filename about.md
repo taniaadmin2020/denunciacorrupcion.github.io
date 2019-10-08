@@ -12,8 +12,8 @@ Esta oficina busca impulsar la participación ciudadana, facilitando un canal se
 
 Puedes denunciar cualquier hecho irregular o sospecha de acto corrupto que involucre a autoridades o funcionarios de alguna institución pública de la Administración del Estado, entre ellas:
 
-- Ministerios y subsecretarias.
+- Ministerios y subsecretarías.
 - Municipalidades.
-- Servicios públicos descentralizados (de Salud, de Vivienda y Urbanismo, Universidades Estatales, Impuestos Internos, Previsión Social, FONASA,, JUNAEB,entre otros).
-- Empresas públicas (ENAP, ENAMI, ASMAR, empresas portuarias, etc.).
+- Servicios públicos descentralizados (de Salud, de Vivienda y Urbanismo, Universidades Estatales, Impuestos Internos, Previsión Social, FONASA, JUNAEB, entre otros).
+- Empresas públicas (ENAP, ENAMI, ASMAR, CODELCO, empresas portuarias, etc.).
 - U otras instituciones estatales.

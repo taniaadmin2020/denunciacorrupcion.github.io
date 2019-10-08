@@ -5,37 +5,37 @@
   pregunta: "¿Qué tipo de denuncias puedo presentar?"
   respuesta: "Puedes denunciar cualquier hecho irregular o sospecha de acto corrupto que involucre a autoridades o funcionarios de alguna institución pública de la Administración del Estado, entre ellas:"
   items:
-    - item:  Ministerios y subsecretarias.
+    - item:  Ministerios y subsecretarías.
     - item:  Municipalidades.
     - item:  Servicios públicos descentralizados (de Salud, de Vivienda y Urbanismo, Universidades Estatales, Impuestos Internos, Previsión Social, FONASA, JUNAEB,entre otros).
     - item:  Empresas públicas (ENAP, ENAMI, ASMAR, empresas portuarias, etc.).
     - item:  U otras instituciones estatales.
 - id: 3
   pregunta: "¿Qué información personal debo entregar?"
-  respuesta: "Deben ingresar datos de identificación como nombre, apellido, RUT y un medio de contacto para comunicarnos contigo en caso de requerir más antecedentes y contarte como avanza tu denuncia. Si no deseas revelar tu identidad, el formulario de denuncia te permitirá mantener en reserva tus datos personales."
+  respuesta: "Debes ingresar datos de identificación como nombre, apellido, RUT y un medio de contacto para comunicarnos contigo en caso de requerir más antecedentes y contarte cómo avanza tu denuncia. Si no deseas revelar tu identidad, el formulario de denuncia te permitirá mantener en reserva tus datos personales."
 - id: 4
   pregunta: "¿Se deben adjuntar documentos? ¿Cuáles?"
   respuesta: "Para un mejor respaldo de la denuncia, si tienes evidencia o documentos que respalden tu denuncia debes adjuntarlos con tu denuncia.
           Pueden ser imágenes, fotografías, documentos oficiales, audios u otros."
 - id: 5
   pregunta: "¿Cuánto se demoran en responder mi denuncia?"
-  respuesta: "Una vez que hagas la denuncia, un profesional de nuestro equipo se pondrá en contacto contigo a más tardar en 3 días hábiles, contados desde el día hábiles siguiente al que ingresaste la denuncia, quien te informará como se gestionará tu denuncia.
-      Por ejemplo si ingresaste una denuncia un día sábado el primer día hábil siguiente es el día lunes y el plazo para que un profesional de nuestro equipo vencería el día miércoles."
+  respuesta: "Una vez que hagas la denuncia, un profesional de nuestro equipo se pondrá en contacto contigo a más tardar en 5 días hábiles, contados desde el día hábil siguiente al que ingresaste la denuncia, quien te informará cómo se gestionará tu denuncia.
+      Por ejemplo si ingresaste una denuncia un día sábado el primer día hábil siguiente es el día lunes y el plazo para que un profesional de nuestro equipo  te contacte el día viernes."
 - id: 6
   pregunta: "¿Quién se hará cargo de gestionar mi denuncia?"
-  respuesta: "Cada denuncia ingresada será remitida a un profesional del equipo, quien se hará cargo de evaluar la información proporcionada, verificar documentos de respaldo que funden los hechos denunciados. Además esta persona te entregará información del estado de tramite y te podrá orientar de los siguientes pasos."
+  respuesta: "Cada denuncia ingresada será remitida a un profesional del equipo, quien se hará cargo de evaluar la información proporcionada, y verificar  los documentos de respaldo que funden los hechos denunciados. Además, esta persona te entregará información del estado de trámite y te podrá orientar de los pasos a seguir. "
 - id: 7
   pregunta: "¿Cuál es el camino que va a seguir mi denuncia?"
-  respuesta: "Tu denuncia va a ser evaluada por el equipo ALAC, para verificar que los hechos denunciados sean de corrupción, se verificará a qué organismo, autoridades y/o funcionarios involucra, se buscará más antecedentes para respaldar los hechos denunciados, en caso de constituir delito o alguna falta administrativa serán remitidos los antecedentes al organismo pertinente que los puede sancionar."
+  respuesta: "Tu denuncia va a ser evaluada por el equipo ALAC para verificar que los hechos denunciados correspondan a un caso de corrupción. Para ello se verificará a qué organismo, autoridades y/o funcionarios involucra y se buscarán más antecedentes para respaldar los hechos denunciados. En caso de constituir delito o alguna falta administrativa serán remitidos los antecedentes al organismo pertinente que los puede sancionar."
 - id: 8
   pregunta: "¿Por dónde se ingresa una denuncia?"
   respuesta: "Puedes ingresar tus denuncias por medio de:"
   items:
     - item: "Formulario on line ([link](https://buzon.denunciacorrupcion.cl))"
     - item: Redes sociales.
-    - item: "Correo electrónico alac@chiletransparente.cl"
+    - item: "Correo electrónico chiletransparente@chiletransparente.cl"
     - item: Carta.
-    - item: "Whatsapp: +56 9 12345678"
+    - item: "Whatsapp: +56 9 30206066"
 - id: 9
   pregunta: "¿Cuáles son los contactos oficiales de ALAC?"
   respuesta:  "En redes sociales: "
@@ -43,11 +43,11 @@
     - item: "Twitter: https://twitter.com/Ch_Transparente"
     - item: "Facebook: https://facebook.com/ChTransparente"
     - item: "LinkedN: https://linkedin.com/company/1731397"
-    - item: "Email: alac@chiletransparente.cl"
-    - item: "Whatsapp: +56 9 12345678"
+    - item: "Email: chiletransparente@chiletransparente.cl
+    - item: "Whatsapp: +56 9 30206066"
 - id: 10
   pregunta: "¿Cuándo se cierra el caso?"
-  respuesta: "Los casos se cierran por dos causas. Por derivación a la autoridad pertinente cuando la denuncia no es sobre un caso de corrupción, o por que se adoptó una resolución de la autoridad competente por medio de un proceso administrativo o judicial."
+  respuesta: "Los casos se cierran por dos causas: Por derivación a la autoridad pertinente cuando la denuncia no se refiere a un caso de corrupción, o porque se adoptó una resolución de la autoridad competente por medio de un proceso administrativo o judicial."
 - id: 11
   pregunta: "¿Dónde puedo hacer seguimiento del caso?"
   respuesta: "En el sitio web de ALAC, puedes dirigirte a la sección de seguimiento de denuncia y con el código que te fue asignado al momento de realizar la denuncia podrás conocer la etapa en que se encuentra tu denuncia, adjuntar más antecedentes o ponerte en contacto con el profesional a cargo."
