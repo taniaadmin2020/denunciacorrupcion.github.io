@@ -19,8 +19,8 @@
           Pueden ser imágenes, fotografías, documentos oficiales, audios u otros."
 - id: 5
   pregunta: "¿Cuánto se demoran en responder mi denuncia?"
-  respuesta: "Una vez que hagas la denuncia, un profesional de nuestro equipo se pondrá en contacto contigo a más tardar en 5 días hábiles, contados desde el día hábil siguiente al que ingresaste la denuncia, quien te informará cómo se gestionará tu denuncia.
-      Por ejemplo si ingresaste una denuncia un día sábado el primer día hábil siguiente es el día lunes y el plazo para que un profesional de nuestro equipo  te contacte el día viernes."
+  respuesta: "Una vez que hagas la denuncia, un profesional de nuestro equipo se pondrá en contacto contigo a más tardar en 10 días hábiles, contados desde el día hábil siguiente al que ingresaste la denuncia, quien te informará cómo se gestionará tu denuncia.
+      Por ejemplo, si ingresaste una denuncia un día sábado el primer día hábil siguiente es el día lunes y el plazo para que un profesional de nuestro equipo te contacte el día viernes de la siguiente semana."
 - id: 6
   pregunta: "¿Quién se hará cargo de gestionar mi denuncia?"
   respuesta: "Cada denuncia ingresada será remitida a un profesional del equipo, quien se hará cargo de evaluar la información proporcionada, y verificar  los documentos de respaldo que funden los hechos denunciados. Además, esta persona te entregará información del estado de trámite y te podrá orientar de los pasos a seguir. "
